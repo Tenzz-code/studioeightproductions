@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	background: #202020;
+	color: darkgray;
+}
+
+/*------- heading --------*/
+
+.author {
+	text-align: center;
+	padding: 30px 5px;
+}
+
+.author h2 {
+	font-family: HvdTrial Brandon Grotesque;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.author h1 {
+	font-family: HvdTrial Brandon Grotesque;
+	font-weight: normal;
+	font-size: 36px;
+	color: whitesmoke;
+}
+
+
+
+/*----- navigation ------*/
+
+nav {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	justify-content: center;
+	padding-left: 40px;
+	font-size: 14px;
+
+}
+
+nav ul {
+	list-style: none;
+	width: 100%;
+	padding-right: 60px;
+	font-family: HvdTrial Brandon Grotesque;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+nav ul li a {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: lightgrey;
+	text-decoration: none;
+}
+
+/*----- about ------*/
+.about {
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+    height: 220px;
+    margin-left: auto;
+    margin-right: 0; /* aligns the div to the right */
+    text-align: left; /* keeps content left-aligned */
+}
+
+.about p {
+	font-family: Helvetica;
+    font-size: 12px;
+}
+
